@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import { RootLayout } from '../layouts/RootLayout';
-import Planes from '../pages/planes';
+import Planes from '../pages/Planes';
 import Blog from '../pages/Blog';
 import Funciona from '../pages/Funciona';
 import Preguntas from '../pages/Preguntas';
