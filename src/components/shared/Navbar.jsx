@@ -34,7 +34,7 @@ export const Navbar = () => {
                     <div className="flex items-center gap-4">
                         <span>¡Contáctanos!</span>
                         <a
-                            href="https://wa.me/573192410053?text=¡Hola! necesito Consultar sobre el diseño, implementación y acompañamiento del SG-SST. Mi nombre es..."
+                            href="https://wa.me/573117279603?text=¡Hola! necesito Consultar sobre el diseño, implementación y acompañamiento del SG-SST. Mi nombre es..."
                             target="_blank"
                             rel="noopener noreferrer"
                         >
