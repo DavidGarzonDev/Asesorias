@@ -1,6 +1,4 @@
 
-
-import PreguntasFrecuentes from "../components/home/Faq";
 import Intro from "../components/home/Intro";
 import PlanesDetallados from "../components/home/PlanesDetallados";
 import RiesgosPermitidos from "../components/home/RiesgosPermitidos";
@@ -28,9 +26,7 @@ const Planes = () => {
 
             <Clientes/>
 
-            {/* SECCIÓN DE PREGUNTAS FRECUENTES */}
-
-            <PreguntasFrecuentes/>
+            
         </>
     );
 };

@@ -36,8 +36,8 @@ const PreguntasFrecuentes = () => {
     };
 
     return (
-        <section className="w-full bg-purple-100 py-16 px-6">
-            <div className="max-w-5xl mx-auto text-center mb-10">
+        <section className="w-full bg-purple-100 py-40 px-6">
+            <div className="max-w-5xl mx-auto text-center mb-">
                 <h2 className="text-4xl md:text-5xl font-bold text-purple-800 mb-4">
                     Preguntas Frecuentes
                 </h2>

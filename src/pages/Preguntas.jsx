@@ -1,8 +1,14 @@
 import React from 'react'
+import PreguntasFrecuentes from '../components/home/Faq'
 
 const Preguntas = () => {
   return (
-    <div>Preguntas</div>
+    <>
+      {/* SECCIÓN DE PREGUNTAS FRECUENTES */}
+
+      <PreguntasFrecuentes />
+
+    </>
   )
 }
 

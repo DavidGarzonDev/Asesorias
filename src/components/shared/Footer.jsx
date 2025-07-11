@@ -44,7 +44,7 @@ export const Footer = () => {
                                target="_blank" 
                                rel="noopener noreferrer"
                                className="hover:text-purple-100 transition">
-                                WhatsApp: +57 311 366 3729
+                                WhatsApp: +57 3117279603
                             </a>
                         </li>
                     </ul>
