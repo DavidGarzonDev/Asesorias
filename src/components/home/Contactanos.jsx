@@ -11,10 +11,16 @@ const Contactanos = () => {
                 <p className="text-lg md:text-xl mb-8">
                     Escríbenos, ¡te podemos ayudar!
                 </p>
+                <a href="https://wa.me/573113663729?text=¡Hola!, Quiero mas informacion mi nombre es ..."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition-transform transform hover:scale-110">
 
-                <button className="bg-white text-purple-700 px-8 py-3 rounded-full font-semibold text-lg flex items-center gap-3 mx-auto hover:bg-purple-100 transition">
-                    <FaEnvelope /> Contáctanos
-                </button>
+                    <button className="bg-white text-purple-700 px-8 py-3 rounded-full font-semibold text-lg flex items-center gap-3 mx-auto hover:bg-purple-100 transition hover:scale-110"
+                    >
+                        <FaEnvelope /> Contáctanos
+                    </button>
+                </a>
             </div>
         </section>
     )

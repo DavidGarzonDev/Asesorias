@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaArrowDown } from "react-icons/fa";
+import { FaArrowDown, FaWhatsapp } from "react-icons/fa";
 
 const PlanesDetallados = () => {
     const [activeTab, setActiveTab] = useState("diseño");
@@ -23,7 +23,7 @@ const PlanesDetallados = () => {
             nombre: "Diseño General SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa estándar",
-            empleados: "Sin límite específico",
+            empleados: "1-50 trabajadores",
             precio: "$990.000*"
         },
         {
@@ -142,9 +142,19 @@ const PlanesDetallados = () => {
                                 </p>
                             </div>
                             <div className="mt-auto flex justify-center">
-                                <button className={`px-6 py-3 rounded text-lg font-semibold ${index % 2 === 0 ? "bg-white text-purple-700 hover:bg-purple-100" : "bg-purple-600 text-white hover:bg-purple-700"} transition`}>
-                                    Contáctanos
-                                </button>
+                                <a
+                                    href="https://wa.me/573113663729?text=Hola, quiero más información sobre los planes. Mi nombre es..."
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className={`flex items-center gap-2 px-6 py-3 rounded text-lg font-semibold transition transform hover:scale-105 hover:shadow-lg
+                                        ${index % 2 === 0
+                                            ? 'bg-white text-purple-700 hover:bg-purple-100'
+                                            : 'bg-purple-600 text-white hover:bg-purple-700'
+                                        }`}
+                                >
+                                    <span>Contáctanos</span>
+                                    <FaWhatsapp className={`${index % 2 === 0 ? 'text-green-500 hover:text-green-600' : 'text-green-300 hover:text-green-200'} text-2xl transition-colors duration-300`} />
+                                </a>
                             </div>
                         </div>
                     ))}
