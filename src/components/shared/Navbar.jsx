@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <div className="flex items-center gap-3">
                         <span>¡Contáctanos!</span>
                         <a
-                            href="https://wa.me/573113663729?text=¡Hola!, Quiero más información. Mi nombre es..."
+                            href="https://wa.me/573117279603?text=¡Hola!, Quiero más información. Mi nombre es..."
                             target="_blank"
                             rel="noopener noreferrer"
                             className="transition-transform transform hover:scale-110"
