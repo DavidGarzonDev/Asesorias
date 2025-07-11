@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FaLinkedin, FaInstagram, FaFacebookF, FaTwitter, FaBars, FaTimes } from "react-icons/fa";
+import { FaLinkedin, FaInstagram, FaFacebookF, FaTwitter, FaBars, FaTimes, FaWhatsapp } from "react-icons/fa";
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -26,18 +26,32 @@ export const Navbar = () => {
 
     return (
         <header className="w-full fixed top-0 left-0 z-50 transition-all duration-300">
-            
+
             {/* Top Bar */}
             {!isScrolled && (
-                <div className="bg-purple-100 text-purple-800 text-xl py-6 px-8 flex justify-between items-center font-bold">
-                    <span>¡Llámanos! +57 3117279603</span>
+                <div className="bg-purple-100 text-purple-800 text-xl py-6 px-5 flex justify-between items-center font-bold">
+
+                    <div className="flex items-center gap-4">
+                        <span>¡Contáctanos!</span>
+                        <a
+                            href="https://wa.me/573192410053?text=¡Hola! necesito Consultar sobre el diseño, implementación y acompañamiento del SG-SST. Mi nombre es..."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <FaWhatsapp className="text-4xl hover:text-purple-600 cursor-pointer" />
+                        </a>
+                    </div>
+
+                    {/* Aquí irían otras redes sociales si las quieres */}
                     {/* <div className="flex gap-4 text-3xl">
-                        <a href="#" className="hover:text-purple-600"><FaLinkedin /></a>
-                        <a href="#" className="hover:text-purple-600"><FaInstagram /></a>
-                        <a href="#" className="hover:text-purple-600"><FaFacebookF /></a>
-                        <a href="#" className="hover:text-purple-600"><FaTwitter /></a>
-                    </div> */}
+    <a href="#" className="hover:text-purple-600"><FaLinkedin /></a>
+    <a href="#" className="hover:text-purple-600"><FaInstagram /></a>
+    <a href="#" className="hover:text-purple-600"><FaFacebookF /></a>
+    <a href="#" className="hover:text-purple-600"><FaTwitter /></a>
+  </div> */}
+
                 </div>
+
             )}
 
             {/* Main Navbar */}
@@ -63,8 +77,8 @@ export const Navbar = () => {
                                 <span
                                     className={`px-5 py-2 rounded transition 
                                         ${isActive(item.path)
-                                        ? "bg-purple-700 text-white"
-                                        : "hover:bg-purple-600 hover:text-white text-purple-700"
+                                            ? "bg-purple-700 text-white"
+                                            : "hover:bg-purple-600 hover:text-white text-purple-700"
                                         }`}
                                 >
                                     {item.name}
@@ -82,7 +96,7 @@ export const Navbar = () => {
                                 <Link to={item.path}>
                                     <span
                                         className="px-5 py-2 rounded transition  text-purple-700 "
-                                            
+
                                     >
                                         {item.name}
                                     </span>

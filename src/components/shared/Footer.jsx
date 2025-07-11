@@ -30,12 +30,12 @@ export const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Contacto</h3>
                     <ul className="space-y-2 text-sm text-gray-300">
-                        <li>Carrera 48 No 10-45 Oficina 807</li>
-                        <li>Centro Comercial Monterrey</li>
-                        <li>Medellín, Colombia</li>
-                        <li><a href="mailto:contacto@cuidamos.com.co" className="hover:text-white">contacto@cuidamos.com.co</a></li>
-                        <li>(+57) 300 537 9620</li>
-                        <li>(+57) 319 241 0053</li>
+                        <li>direccion</li>
+                        <li>lugar</li>
+                        <li>YUMBO, CAPITAL INDUSTRIAL - VALLE DEL CAUCA (COL.)</li>
+                        <li><a href="mailto:contacto@cuidamos.com.co" className="hover:text-white">ejemplo@gmail.com.co</a></li>
+                        
+                        
                     </ul>
                 </div>
             </div>
@@ -46,7 +46,7 @@ export const Footer = () => {
                     <Link to="#" className="hover:text-white ml-1">Política de privacidad</Link>
                 </p>
                 <p className="mt-2">
-                    Desarrollado por <a href="https://rlealweb.com" className="hover:text-white">rlealweb.com</a> & Cuidamos
+                    Desarrollado por DavidGarzonDev
                 </p>
             </div>
         </footer>
