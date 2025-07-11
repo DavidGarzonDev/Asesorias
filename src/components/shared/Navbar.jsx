@@ -29,8 +29,8 @@ export const Navbar = () => {
 
             {/* Top Bar */}
             {!isScrolled && (
-                <div className="bg-purple-100 text-purple-800 text-xl py-6 px-5 flex justify-between items-center font-bold">
-                    <div className="flex items-center gap-4">
+                <div className="bg-purple-100 text-purple-800 text-lg py-4 px-5 flex justify-between items-center font-bold">
+                    <div className="flex items-center gap-3">
                         <span>¡Contáctanos!</span>
                         <a
                             href="https://wa.me/573113663729?text=¡Hola!, Quiero más información. Mi nombre es..."
@@ -38,31 +38,32 @@ export const Navbar = () => {
                             rel="noopener noreferrer"
                             className="transition-transform transform hover:scale-110"
                         >
-                            <FaWhatsapp className="text-green-500 hover:text-green-600 text-3xl transition-colors duration-300" />
+                            <FaWhatsapp className="text-green-500 hover:text-green-600 text-2xl" />
                         </a>
                     </div>
                 </div>
             )}
 
             {/* Main Navbar */}
-            <nav className={`bg-white px-6 shadow flex flex-col md:flex-row justify-between items-center transition-all duration-300 ${isScrolled ? "py-2" : "py-4"}`}>
+            <nav className={`bg-white px-6 shadow flex flex-wrap md:flex-nowrap justify-between items-center transition-all duration-300 ${isScrolled ? "py-4" : "py-6"}`}>
 
-                <div className="w-full flex flex-col md:flex-row items-center md:items-start md:w-auto">
-
-                    {/* Logo + Eslogan */}
-                    <Link to="/" className="flex flex-col md:items-start items-center">
-                        <span className="text-3xl font-extrabold text-purple-700 leading-none">SIG TRABAJO SEGURO</span>
-                        <span className="text-sm text-purple-500 italic mt-1 text-center md:text-left">Diseñamos tu sistema, tú cumples legal y tranquilo.</span>
+                {/* Logo + Eslogan */}
+                <div className="flex flex-col items-center md:items-start">
+                    <Link to="/" className="flex flex-col items-center md:items-start">
+                        <span className="text-2xl md:text-3xl font-extrabold text-purple-700 leading-tight text-center md:text-left">SIG TRABAJO SEGURO</span>
+                        <span className="text-xs md:text-sm text-purple-500 italic mt-1 text-center md:text-left">
+                            Diseñamos tu sistema, tú cumples legal y tranquilo.
+                        </span>
                     </Link>
+                </div>
 
-                    {/* Mobile Hamburger */}
-                    <div className="md:hidden text-3xl text-purple-700 cursor-pointer ml-auto -mt-7 md:mt-0" onClick={() => setMenuOpen(!menuOpen)}>
-                        {menuOpen ? <FaTimes /> : <FaBars />}
-                    </div>
+                {/* Mobile Hamburger */}
+                <div className="md:hidden text-3xl text-purple-700 cursor-pointer ml-auto mt-3" onClick={() => setMenuOpen(!menuOpen)}>
+                    {menuOpen ? <FaTimes /> : <FaBars />}
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-8 text-purple-700 text-xl font-medium items-center mt-4 md:mt-0">
+                <ul className="hidden md:flex gap-8 text-purple-700 text-lg font-medium items-center">
                     {navItems.map((item, index) => (
                         <li key={index}>
                             <Link to={item.path}>
@@ -82,11 +83,11 @@ export const Navbar = () => {
 
                 {/* Mobile Menu */}
                 {menuOpen && (
-                    <ul className="flex flex-col mt-6 gap-4 text-lg font-medium items-start w-full pl-7 md:hidden">
+                    <ul className="w-full mt-4 flex flex-col gap-3 text-lg font-medium text-purple-700 md:hidden">
                         {navItems.map((item, index) => (
                             <li key={index} onClick={() => setMenuOpen(false)}>
                                 <Link to={item.path}>
-                                    <span className="px-4 py-2 rounded transition text-purple-700">
+                                    <span className="block px-4 py-3 rounded hover:bg-purple-100">
                                         {item.name}
                                     </span>
                                 </Link>
@@ -94,7 +95,6 @@ export const Navbar = () => {
                         ))}
                     </ul>
                 )}
-
             </nav>
         </header>
     );
