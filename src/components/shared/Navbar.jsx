@@ -30,13 +30,13 @@ export const Navbar = () => {
             {/* Top Bar */}
             {!isScrolled && (
                 <div className="bg-purple-100 text-purple-800 text-xl py-6 px-8 flex justify-between items-center font-bold">
-                    <span>¡Llámanos! 0000000</span>
-                    <div className="flex gap-4 text-3xl">
+                    <span>¡Llámanos! +57 3117279603</span>
+                    {/* <div className="flex gap-4 text-3xl">
                         <a href="#" className="hover:text-purple-600"><FaLinkedin /></a>
                         <a href="#" className="hover:text-purple-600"><FaInstagram /></a>
                         <a href="#" className="hover:text-purple-600"><FaFacebookF /></a>
                         <a href="#" className="hover:text-purple-600"><FaTwitter /></a>
-                    </div>
+                    </div> */}
                 </div>
             )}
 
