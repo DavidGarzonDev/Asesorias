@@ -16,38 +16,22 @@ const Clientes = () => {
                 {/* Imagen 1 */}
                 <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow">
                     <img
-                        src="https://via.placeholder.com/150x80?text=Logo+1"
+                        src="/img-clientes/cliente1.webp"
                         alt="Cliente 1"
-                        className="max-h-16 object-contain"
+                        className="max-h-30 object-contain"
                     />
                 </div>
 
                 {/* Imagen 2 */}
                 <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow">
                     <img
-                        src="https://via.placeholder.com/150x80?text=Logo+2"
+                        src="/img-clientes/cliente2.webp"
                         alt="Cliente 2"
-                        className="max-h-16 object-contain"
+                        className="max-h-30 object-contain"
                     />
                 </div>
 
-                {/* Imagen 3 */}
-                <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow">
-                    <img
-                        src="https://via.placeholder.com/150x80?text=Logo+3"
-                        alt="Cliente 3"
-                        className="max-h-16 object-contain"
-                    />
-                </div>
-
-                {/* Imagen 4 */}
-                <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow">
-                    <img
-                        src="https://via.placeholder.com/150x80?text=Logo+4"
-                        alt="Cliente 4"
-                        className="max-h-16 object-contain"
-                    />
-                </div>
+            
             </div>
         </section>
     )
