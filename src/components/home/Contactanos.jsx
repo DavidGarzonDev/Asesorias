@@ -11,7 +11,7 @@ const Contactanos = () => {
                 <p className="text-lg md:text-xl mb-8">
                     Escríbenos, ¡te podemos ayudar!
                 </p>
-                <a href="https://wa.me/573113663729?text=¡Hola!, Quiero mas informacion mi nombre es ..."
+                <a href="https://wa.me/573117279603?text=¡Hola!, Quiero mas informacion mi nombre es ..."
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-transform transform hover:scale-110">

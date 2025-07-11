@@ -143,7 +143,7 @@ const PlanesDetallados = () => {
                             </div>
                             <div className="mt-auto flex justify-center">
                                 <a
-                                    href="https://wa.me/573113663729?text=Hola, quiero más información sobre los planes. Mi nombre es..."
+                                    href="https://wa.me/573117279603?text=Hola, quiero más información sobre los planes. Mi nombre es..."
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className={`flex items-center gap-2 px-6 py-3 rounded text-lg font-semibold transition transform hover:scale-105 hover:shadow-lg

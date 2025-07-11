@@ -40,7 +40,7 @@ export const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://wa.me/573113663729?text=¡Hola! Quisiera recibir más información sobre los planes SG-SST." 
+                            <a href="https://wa.me/573117279603?text=¡Hola! Quisiera recibir más información sobre los planes SG-SST." 
                                target="_blank" 
                                rel="noopener noreferrer"
                                className="hover:text-purple-100 transition">
