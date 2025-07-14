@@ -3,7 +3,7 @@ import { GoArrowDown } from 'react-icons/go'
 
 const Intro = () => {
     return (
-        <div className="w-full bg-purple-100 flex flex-col justify-center items-center text-center px-10 mt-33  py-20 mb-0">
+        <div className="w-full bg-purple-100 flex flex-col justify-center items-center text-center px-10 mt-33  py-20 mb-0 md:py-30">
             <h1 className="text-6xl md:text-6xl font-bold text-purple-800 mb-6 leading-tight max-w-4xl -mt-11">
                 Consultoría & Asesoría Especializada
             </h1>

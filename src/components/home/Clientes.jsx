@@ -23,10 +23,18 @@ const Clientes = () => {
                 </div>
 
                 {/* Imagen 2 */}
-                <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow">
+                <div className="bg-white border border-purple-200 rounded-lg p-6 flex items-center justify-center shadow ">
                     <img
                         src="/img-clientes/cliente2.webp"
                         alt="Cliente 2"
+                        className="max-h-30 object-contain"
+                    />
+                </div>
+
+                <div className="bg-white border border-purple-200 rounded-lg p-1 flex items-center justify-center shadow py-12">
+                    <img
+                        src="/img-clientes/cliente3.webp"
+                        alt="Cliente 3"
                         className="max-h-30 object-contain"
                     />
                 </div>

@@ -17,7 +17,7 @@ export const Navbar = () => {
 
     const navItems = [
         { name: "Cómo funciona", path: "/como-funciona" },
-        { name: "Planes", path: "/" },
+        { name: "SG-SST", path: "/" },
         { name: "Blog SG-SST", path: "/blog" },
         { name: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
     ];
@@ -45,45 +45,49 @@ export const Navbar = () => {
             )}
 
             {/* Main Navbar */}
-            <nav className={`bg-white px-6 shadow flex flex-wrap md:flex-nowrap justify-between items-center transition-all duration-300 ${isScrolled ? "py-4" : "py-6"}`}>
+            <nav className={`bg-white px-6 shadow w-full transition-all duration-300 ${isScrolled ? "py-4" : "py-6"}`}>
+                <div className="max-w-7xl mx-auto flex items-center justify-between gap-4 flex-wrap md:flex-nowrap">
 
-                {/* Logo + Eslogan */}
-                <div className="flex flex-col items-center md:items-start">
-                    <Link to="/" className="flex flex-col items-center md:items-start">
-                        <span className="text-2xl md:text-3xl font-extrabold text-purple-700 leading-tight text-center md:text-left">SIG TRABAJO SEGURO</span>
-                        <span className="text-xs md:text-sm text-purple-500 italic mt-1 text-center md:text-left">
-                            Diseñamos tu sistema, tú cumples legal y tranquilo.
-                        </span>
-                    </Link>
+                    {/* Logo */}
+                    <div className="flex flex-col items-start w-full md:w-auto flex-shrink-0">
+                        <Link to="/" className="flex flex-col items-start">
+                            <span className="text-xl md:text-2xl font-extrabold text-purple-700 leading-tight">
+                                SIG TRABAJO SEGURO
+                            </span>
+                            <span className="text-xs text-purple-500 italic mt-1">
+                                Diseñamos tu sistema, tú cumples legal y tranquilo.
+                            </span>
+                        </Link>
+                    </div>
+
+                    {/* Botón Hamburguesa SOLO móvil */}
+                    <div className="md:hidden text-3xl text-purple-700 cursor-pointer ml-auto -mt-15" onClick={() => setMenuOpen(!menuOpen)}>
+                        {menuOpen ? <FaTimes /> : <FaBars />}
+                    </div>
+
+                    {/* Menú Escritorio */}
+                    <ul className="hidden md:flex flex-wrap gap-x-6 gap-y-4 text-purple-700 text-sm md:text-base font-medium ml-auto">
+                        {navItems.map((item, index) => (
+                            <li key={index}>
+                                <Link to={item.path}>
+                                    <span
+                                        className={`px-4 py-2 rounded transition 
+                        ${isActive(item.path)
+                                                ? "bg-purple-700 text-white"
+                                                : "hover:bg-purple-600 hover:text-white text-purple-700"
+                                            }`}
+                                    >
+                                        {item.name}
+                                    </span>
+                                </Link>
+                            </li>
+                        ))}
+                    </ul>
                 </div>
 
-                {/* Mobile Hamburger */}
-                <div className="md:hidden text-3xl text-purple-700 cursor-pointer ml-auto mt-3" onClick={() => setMenuOpen(!menuOpen)}>
-                    {menuOpen ? <FaTimes /> : <FaBars />}
-                </div>
-
-                {/* Desktop Menu */}
-                <ul className="hidden md:flex gap-8 text-purple-700 text-lg font-medium items-center">
-                    {navItems.map((item, index) => (
-                        <li key={index}>
-                            <Link to={item.path}>
-                                <span
-                                    className={`px-5 py-2 rounded transition 
-                                        ${isActive(item.path)
-                                            ? "bg-purple-700 text-white"
-                                            : "hover:bg-purple-600 hover:text-white text-purple-700"
-                                        }`}
-                                >
-                                    {item.name}
-                                </span>
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-
-                {/* Mobile Menu */}
+                {/* Menú móvil */}
                 {menuOpen && (
-                    <ul className="w-full mt-4 flex flex-col gap-3 text-lg font-medium text-purple-700 md:hidden">
+                    <ul className="w-full mt-1 flex flex-col gap-3 text-lg font-medium text-purple-700 md:hidden ">
                         {navItems.map((item, index) => (
                             <li key={index} onClick={() => setMenuOpen(false)}>
                                 <Link to={item.path}>
