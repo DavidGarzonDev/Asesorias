@@ -40,10 +40,10 @@ export const Footer = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://wa.me/573117279603?text=¡Hola! Quisiera recibir más información sobre los planes SG-SST." 
-                               target="_blank" 
-                               rel="noopener noreferrer"
-                               className="hover:text-purple-100 transition">
+                            <a href="https://wa.me/573117279603?text=¡Hola! Quisiera recibir más información sobre los planes SG-SST."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-purple-100 transition">
                                 WhatsApp: +57 3117279603
                             </a>
                         </li>
@@ -51,14 +51,24 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className="border-t border-purple-700 mt-12 pt-6 text-xs text-gray-400 text-center">
+            <div className="border-t border-purple-700 mt-12 pt-6 text-xs text-gray-400 text-center py-10">
                 <p>
                     SIG TRABAJO SEGURO ® es una marca registrada. Todos los derechos reservados. © 2025
                     <Link to="#" className="hover:text-purple-100 ml-1">Política de privacidad</Link>
                 </p>
-                <p className="mt-2">
-                    Desarrollado por <span className="text-slate-200 font-bold">DavidGarzonDev</span>
+
+                <p className="mt-2 hover:scale-110">
+                    Desarrollado por 
+                    <a href="https://www.linkedin.com/in/davidgarzondev/"
+                    
+
+                    >
+                        
+                    <span className="text-slate-200 font-bold hover:text-green-400 "> DavidGarzonDev</span>
+                    </a>
                 </p>
+
+
             </div>
         </footer>
     );
