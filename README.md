@@ -22,7 +22,6 @@ SIG TRABAJO SEGURO es una plataforma web desarrollada para facilitar la implemen
 
 - Diseño de planes SG-SST por tipo de empresa y número de empleados.
 - Información clara sobre obligaciones, normatividad y beneficios del SG-SST.
-- Blog educativo con artículos del SG-SST.
 - Sección de preguntas frecuentes para resolver dudas comunes.
 - Botón de contacto directo por WhatsApp.
 - Sitio responsive: adaptado para móviles, tablets y escritorio.
