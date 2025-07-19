@@ -29,17 +29,18 @@ export const Navbar = () => {
             {/* Top Bar */}
             {!isScrolled && (
                 <div className="bg-purple-100 text-purple-800 text-lg py-4 px-5 flex justify-between items-center font-bold">
-                    <div className="flex items-center gap-3">
-                        <span>¡Contáctanos!</span>
-                        <a
-                            href="https://wa.me/573117279603?text=¡Hola!, Quiero más información. Mi nombre es..."
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="transition-transform transform hover:scale-110"
-                        >
+                    <a
+                        href="https://wa.me/573117279603?text=¡Hola!, Quiero más información. Mi nombre es..."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="transition-transform transform hover:scale-110"
+                    ><div className="flex items-center gap-3">
+
+
+                            <h2 className="text-xl">+57 3117279603</h2>
                             <FaWhatsapp className="text-green-500 hover:text-green-600 text-2xl" />
-                        </a>
-                    </div>
+
+                        </div></a>
                 </div>
             )}
 
