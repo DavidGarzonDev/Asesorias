@@ -16,9 +16,8 @@ export const Navbar = () => {
     }, []);
 
     const navItems = [
-        { name: "Cómo funciona", path: "/como-funciona" },
         { name: "SG-SST", path: "/" },
-        { name: "Blog SG-SST", path: "/blog" },
+        { name: "GH", path: "/blog" },
         { name: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
     ];
 
