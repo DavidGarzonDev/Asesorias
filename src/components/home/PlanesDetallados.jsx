@@ -6,28 +6,28 @@ const PlanesDetallados = () => {
 
     const planesDiseño = [
         {
-            nombre: "Diseño Básico SG-SST",
+            nombre: "Diseño",
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
             empleados: "1–10 trabajadores",
             precio: "$500.000*"
         },
         {
-            nombre: "Diseño Intermedio SG-SST",
+            nombre: "Diseño",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
             empleados: "11–50 trabajadores",
             precio: "$1.800.000*"
         },
         {
-            nombre: "Diseño General SG-SST",
+            nombre: "Diseño",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa estándar",
             empleados: "1-50 trabajadores",
             precio: "$990.000*"
         },
         {
-            nombre: "Diseño Avanzado SG-SST",
+            nombre: "Diseño",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa con procesos complejos",
             empleados: "11 a 15 empleados",
@@ -37,33 +37,27 @@ const PlanesDetallados = () => {
 
     const planesAdmin = [
         {
-            nombre: "Admin Básico",
+            nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
             empleados: "3 a 5 empleados",
             precio: "$197.500*"
         },
         {
-            nombre: "Admin Intermedio",
+            nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
             empleados: "6 a 10 empleados",
             precio: "$249.000*"
         },
         {
-            nombre: "Admin Avanzado",
+            nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa mediana",
             empleados: "11 a 15 empleados",
             precio: "$354.250*"
         },
-        {
-            nombre: "Admin Empresarial",
-            riesgo: "Riesgo I, II, III",
-            empresa: "Empresa grande",
-            empleados: "16 a 25 empleados",
-            precio: "$630.000*"
-        }
+        
     ];
 
     const planes = activeTab === "diseño" ? planesDiseño : planesAdmin;
@@ -96,7 +90,7 @@ const PlanesDetallados = () => {
                     <div className="md:w-1/2 bg-purple-50 p-8 rounded-lg shadow text-left">
                         {activeTab === "diseño" ? (
                             <>
-                                <h3 className="text-2xl font-bold text-purple-800 mb-4">Planes Diseño Cuidamos</h3>
+                                
                                 <ul className="list-disc pl-5 text-gray-700 space-y-3 text-base leading-relaxed">
                                     <li>Hacemos el SG-SST práctico y simple para tu empresa.</li>
                                     <li>Implementación según Resolución 0312 de 2019.</li>
@@ -106,7 +100,7 @@ const PlanesDetallados = () => {
                             </>
                         ) : (
                             <>
-                                <h3 className="text-2xl font-bold text-purple-800 mb-4">Planes Administración Cuidamos*</h3>
+                                
                                 <ul className="list-disc pl-5 text-gray-700 space-y-3 text-base leading-relaxed">
                                     <li>Mantenimiento y Administración del SG-SST en el ciclo anual.</li>
                                     <li>Seguimiento, plan de trabajo, capacitaciones y cierre de ciclo.</li>
