@@ -31,7 +31,7 @@ export const Footer = () => {
                 <div>
                     <h3 className="text-lg font-semibold mb-4 text-white">Contacto</h3>
                     <ul className="space-y-3 text-sm text-gray-300">
-                        <li>Dirección: Calle Ejemplo #00-00</li>
+                        
                         <li>Ciudad: Yumbo, Capital Industrial</li>
                         <li>Valle del Cauca - Colombia</li>
                         <li>
