@@ -20,8 +20,7 @@ const Planes = () => {
             {/* SECCIÓN DE OTROS SERVICIOS*/}
             <OtrosServicios/>
             
-            {/* SECCIÓN DE ADVERTENCIA */}
-            <RiesgosPermitidos/>
+            
 
 
             {/* SECCIÓN DE CONTACTANOS */}
