@@ -28,41 +28,7 @@ SIG TRABAJO SEGURO es una plataforma web desarrollada para facilitar la implemen
 
 ---
 
-## 📦 Estructura del proyecto
 
-```bash
-/src
- ┣ /components     # Componentes reutilizables como Navbar, Footer, etc.
- ┣ /pages          # Páginas principales (Inicio, Blog, Planes, FAQ)
- ┣ /constants      # Enlaces y rutas centralizadas
- ┣ /assets         # Imágenes y recursos visuales
- ┗ App.jsx         # Configuración principal del enrutamiento
-
-
----
-
-🚀 Cómo ejecutar el proyecto localmente
-
-1. Clona el repositorio:
-
-
-
-git clone https://github.com/TU_USUARIO/SIG-Trabajo-Seguro.git
-
-2. Instala las dependencias:
-
-
-
-npm install
-
-3. Inicia el servidor de desarrollo:
-
-
-
-npm run dev
-
-
----
 
 🌐 Enlace en producción
 
