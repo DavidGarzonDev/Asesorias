@@ -27,11 +27,11 @@ const PlanesDetallados = () => {
             precio: "Entre $800.000  a $2.200.000"
         },
         {
-            nombre: "Diseño SG-SST",
+            nombre: "Actualizacion de Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa con procesos complejos",
-            empleados: "11 a 15 empleados",
-            precio: "$1.590.000"
+            empleados: "1 a 50 empleados",
+            precio: "Entre $500.000  a $2.200.000"
         }
     ];
 
