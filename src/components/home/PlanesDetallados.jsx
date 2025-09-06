@@ -6,32 +6,32 @@ const PlanesDetallados = () => {
 
     const planesDiseño = [
         {
-            nombre: "Diseño",
+            nombre: "Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
-            empleados: "1–10 trabajadores",
-            precio: "$500.000*"
+            empleados: "1 a 10 trabajadores",
+            precio: "$500.000"
         },
         {
-            nombre: "Diseño",
+            nombre: "Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
-            empleados: "11–50 trabajadores",
-            precio: "$1.800.000*"
+            empleados: "11 a 50 trabajadores",
+            precio: "$1.800.000"
         },
         {
-            nombre: "Diseño",
-            riesgo: "Riesgo I, II, III",
+            nombre: "Diseño SG-SST",
+            riesgo: "Riesgo IV, V",
             empresa: "Empresa estándar",
-            empleados: "1-50 trabajadores",
-            precio: "$990.000*"
+            empleados: "1 a 50 trabajadores",
+            precio: "Entre $800.000  a $2.200.000"
         },
         {
-            nombre: "Diseño",
+            nombre: "Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa con procesos complejos",
             empleados: "11 a 15 empleados",
-            precio: "$1.590.000*"
+            precio: "$1.590.000"
         }
     ];
 
@@ -40,22 +40,22 @@ const PlanesDetallados = () => {
             nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
-            empleados: "3 a 5 empleados",
-            precio: "$197.500*"
+            empleados: "1 a 10 empleados",
+            precio: "$700.000"
         },
         {
             nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
-            empleados: "6 a 10 empleados",
-            precio: "$249.000*"
+            empleados: "11 a 50 empleados",
+            precio: "$1.200.000"
         },
         {
             nombre: "Administracion",
-            riesgo: "Riesgo I, II, III",
-            empresa: "Empresa mediana",
+            riesgo: "Riesgo IV, V",
+            empresa: "Micro o pequeña empresa",
             empleados: "11 a 15 empleados",
-            precio: "$354.250*"
+            precio: "$1.800.000"
         },
         
     ];
