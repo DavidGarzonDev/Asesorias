@@ -3,17 +3,27 @@ import { GoArrowDown } from 'react-icons/go'
 
 const Intro = () => {
     return (
-        <div className="w-full bg-purple-100 flex flex-col justify-center items-center text-center px-10 mt-23  py-20 mb-0 md:py-30 ">
-            <h1 className="text-6xl md:text-6xl font-bold text-purple-800 mb-6 leading-tight max-w-4xl -mt-11">
-                Consultoría & Asesoría Especializada
-            </h1>
-            <p className="text-3xl md:text-3xl text-purple-700 mb-8 max-w-2xl">
-                en implementación del SG-SST para micro y pequeñas empresas.
-            </p>
-            <p className="text-purple-700 px-8 py-4 text-3xl font-medium">
-                Consulta aquí nuestros planes SG-SST
-            </p>
-            <GoArrowDown className="text-6xl md:text-6xl font-bold text-purple-800  leading-tight max-w-4xl animate-bounce mt-10"/>
+        <div
+            className="relative w-full h-[600px] flex items-center justify-center bg-cover bg-center text-center"
+            style={{ backgroundImage: `url("/consultas.webp")` }}
+
+        >
+            {/* Capa morada semitransparente */}
+            <div className="absolute inset-0 bg-purple-900/50"></div>
+
+            {/* Contenido centrado */}
+            <div className="relative z-10 max-w-4xl px-6 mt-50">
+                <h1 className="text-6xl  font-bold text-white mb-6 leading-tight">
+                    Consultoría & Asesoría Especializada
+                </h1>
+                <p className="text-lg md:text-2xl text-gray-200 mb-6">
+                    en implementación del SG-SST para micro y pequeñas empresas.
+                </p>
+                <p className="text-xl md:text-3xl font-medium text-white mb-10">
+                    Consulta aquí nuestros planes SG-SST
+                </p>
+                <GoArrowDown className="text-5xl md:text-6xl text-white animate-bounce mx-auto" />
+            </div>
         </div>
     )
 }
