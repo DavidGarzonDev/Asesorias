@@ -39,6 +39,14 @@ const Clientes = () => {
                     />
                 </div>
 
+                <div className="bg-white border border-purple-200 rounded-lg p-1 flex items-center justify-center shadow py-2">
+                    <img
+                        src="/img-clientes/cliente4.webp"
+                        alt="Cliente 4"
+                        className="max-h-40 object-contain"
+                    />
+                </div>
+
             
             </div>
         </section>
