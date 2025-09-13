@@ -12,3 +12,15 @@
         transform: translateX(-50%);
     }
 }
+
+/* Ocultar scrollbar en navegadores modernos */
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-none {
+    -ms-overflow-style: none;
+    /* IE y Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
