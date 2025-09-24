@@ -10,28 +10,28 @@ const PlanesDetallados = () => {
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
             empleados: "1 a 10 trabajadores",
-            precio: "$500.000"
+            precio: "$700.000 cop"
         },
         {
             nombre: "Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
             empleados: "11 a 50 trabajadores",
-            precio: "$1.800.000"
+            precio: "$1.800.000 cop"
         },
         {
             nombre: "Diseño SG-SST",
             riesgo: "Riesgo IV, V",
             empresa: "Empresa estándar",
             empleados: "1 a 50 trabajadores",
-            precio: "Entre $800.000  a $2.200.000"
+            precio: "Entre $800.000  a $2.200.000 cop"
         },
         {
             nombre: "Actualizacion de Diseño SG-SST",
             riesgo: "Riesgo I, II, III",
             empresa: "Empresa con procesos complejos",
             empleados: "1 a 50 empleados",
-            precio: "Entre $500.000  a $2.200.000"
+            precio: "Entre $500.000  a $2.200.000 cop"
         }
     ];
 
@@ -41,21 +41,21 @@ const PlanesDetallados = () => {
             riesgo: "Riesgo I, II, III",
             empresa: "Microempresa",
             empleados: "1 a 10 empleados",
-            precio: "$700.000"
+            precio: "$700.000 cop"
         },
         {
             nombre: "Administracion",
             riesgo: "Riesgo I, II, III",
             empresa: "Pequeña empresa",
             empleados: "11 a 50 empleados",
-            precio: "$1.200.000"
+            precio: "$1.200.000 cop"
         },
         {
             nombre: "Administracion",
             riesgo: "Riesgo IV, V",
             empresa: "Micro o pequeña empresa",
-            empleados: "11 a 15 empleados",
-            precio: "$1.800.000"
+            empleados: "1 a 100 empleados",
+            precio: "$1.800.000 cop"
         },
         
     ];
