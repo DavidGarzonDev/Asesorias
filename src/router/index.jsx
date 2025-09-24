@@ -4,6 +4,9 @@ import Planes from '../pages/Planes';
 import Blog from '../pages/Blog';
 import Funciona from '../pages/Funciona';
 import Preguntas from '../pages/Preguntas';
+import Gh from '../pages/Gh';
+import Plantillas from '../pages/Plantillas';
+
 
 
 
@@ -30,6 +33,14 @@ export const router = createBrowserRouter([
             {
                 path: '/como-funciona',
                 element: <Funciona/>
+            },
+            {
+                path: '/Gestión-humana',
+                element: <Gh/>
+            },
+            {
+                path: '/plantillas',
+                element: <Plantillas/>
             }
 
             

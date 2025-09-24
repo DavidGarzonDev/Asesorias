@@ -17,8 +17,10 @@ export const Navbar = () => {
 
     const navItems = [
         { name: "SG-SST", path: "/" },
-        { name: "GH", path: "/blog" },
+        { name: "Gestión Humana", path: "/Gestión-humana" },
         { name: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
+        { name: "Plantillas", path: "/plantillas" },
+
     ];
 
     const isActive = (path) => location.pathname === path;
