@@ -19,7 +19,7 @@ export const Navbar = () => {
         { name: "SG-SST", path: "/" },
         { name: "Gestión Humana", path: "/Gestión-humana" },
         { name: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
-        { name: "Plantillas", path: "/plantillas" },
+        { name: "Documentos", path: "/plantillas" },
 
     ];
 
