@@ -20,7 +20,7 @@ const ServiciosRh = () => {
         },
         {
             titulo:
-                "Auditoría en procesos de GH (Afiliaciones, liquidación de nómina y prestaciones)",
+                "Auditoría en procesos de GH ",
             descripcion:
                 "Auditoría especializada para garantizar la correcta gestión en afiliaciones, liquidación de nómina y prestaciones sociales, reduciendo riesgos y errores administrativos.",
             icono: <Users className="w-10 h-10 text-purple-600" />,
@@ -43,7 +43,7 @@ const ServiciosRh = () => {
                         }}
                     >
                         {servicio.icono}
-                        <h3 className="mt-4 text-lg font-semibold">{servicio.titulo}</h3>
+                        <h3 className="mt-4 text-lg ">{servicio.titulo}</h3>
                     </div>
                 ))}
             </div>
