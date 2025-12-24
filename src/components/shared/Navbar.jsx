@@ -19,7 +19,7 @@ export const Navbar = () => {
         { name: "SG-SST", path: "/" },
         { name: "Gestión Humana", path: "/Gestión-humana" },
         { name: "Preguntas frecuentes", path: "/preguntas-frecuentes" },
-        { name: "Documentos", path: "/plantillas" },
+        // { name: "Documentos", path: "/plantillas" },
 
     ];
 
@@ -54,7 +54,7 @@ export const Navbar = () => {
                     <div className="flex flex-col items-start w-full md:w-auto flex-shrink-0">
                         <Link to="/" className="flex flex-col items-start">
                             <span className="text-xl md:text-2xl font-extrabold text-purple-700 leading-tight">
-                                SIG TRABAJO SEGURO
+                                GESSAT
                             </span>
                             <span className="text-xs text-purple-500 italic mt-1">
                                 Diseñamos tu sistema, tú cumples legal y tranquilo.

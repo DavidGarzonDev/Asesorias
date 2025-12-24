@@ -1,6 +1,7 @@
 import React from 'react'
-import IntroGh from '../components/home/IntroGh'
-import ServiciosRh from '../components/home/ServiciosRh'
+import IntroGh from '../components/Gestion Humana/IntroGh'
+import ServiciosRh from '../components/Gestion Humana/ServiciosRh'
+
 
 const Gh = () => {
   return (
