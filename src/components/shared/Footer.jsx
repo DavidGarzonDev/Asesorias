@@ -7,7 +7,7 @@ export const Footer = () => {
 
                 {/* Marca y Descripción */}
                 <div>
-                    <h3 className="text-2xl font-bold text-white mb-2">SIG TRABAJO SEGURO</h3>
+                    <h3 className="text-2xl font-bold text-white mb-2">GESSAT TRABAJO SEGURO</h3>
                     <p className="text-sm italic text-purple-300 mb-4">Diseñamos tu sistema, tú cumples legal y tranquilo.</p>
                     <p className="text-sm leading-relaxed text-gray-300">
                         Somos expertos en la implementación de Sistemas de Gestión en Seguridad y Salud en el Trabajo (SG-SST) para micro y pequeñas empresas. Nuestra metodología ha sido validada por empresas en todo el país, garantizando cumplimiento legal y tranquilidad empresarial.
@@ -53,7 +53,7 @@ export const Footer = () => {
 
             <div className="border-t border-purple-700 mt-12 pt-6 text-xs text-gray-400 text-center py-10">
                 <p>
-                    SIG TRABAJO SEGURO ® es una marca registrada. Todos los derechos reservados. © 2025
+                    GESSAT® es una marca registrada. Todos los derechos reservados. © 2025
                     <Link to="#" className="hover:text-purple-100 ml-1">Política de privacidad</Link>
                 </p>
 
