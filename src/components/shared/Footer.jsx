@@ -35,8 +35,8 @@ export const Footer = () => {
                         <li>Ciudad: Yumbo, Capital Industrial</li>
                         <li>Valle del Cauca - Colombia</li>
                         <li>
-                            <a href="mailto:ejemplo@gmail.com" className="hover:text-purple-100 transition">
-                                ejemplo@gmail.com
+                            <a href="mailto:asesor@gessat.com.co" className="hover:text-purple-100 transition">
+                                asesor@gessat.com.co
                             </a>
                         </li>
                         <li>
@@ -57,14 +57,14 @@ export const Footer = () => {
                     <Link to="#" className="hover:text-purple-100 ml-1">Política de privacidad</Link>
                 </p>
 
-                <p className="mt-2 hover:scale-110">
+                <p className="mt-2 ">
                     Desarrollado por 
                     <a href="https://www.linkedin.com/in/davidgarzondev/"
                     
 
                     >
                         
-                    <span className="text-slate-200 font-bold hover:text-green-400 "> DavidGarzonDev</span>
+                    <span className="text-slate-200 font-bold hover:text-purple-300"> DavidGarzonDev</span>
                     </a>
                 </p>
 

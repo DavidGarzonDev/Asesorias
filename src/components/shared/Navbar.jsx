@@ -57,7 +57,7 @@ export const Navbar = () => {
                                 GESSAT
                             </span>
                             <span className="text-xs text-purple-500 italic mt-1">
-                                Diseñamos tu sistema, tú cumples legal y tranquilo.
+                                Gestión Empresarial de Seguridad y Salud en el Trabajo.
                             </span>
                         </Link>
                     </div>
